@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: salmon;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.container{
+    background-color: black;
+    color: lightgray;
+    border-radius: 10px;
+    width: 450px;
+    height: 520px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,.4);
+}
+.month-date{
+    background-color: lightseagreen;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px 10px 0 0;
+}
+.month-date h1{
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.month-date p{
+    font-size: 16px;
+    margin-top: -20px;
+}
+.weekdays{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+.weekdays div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.days{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+.days div{
+    font-size: 14px;
+    margin: 3px;
+    height: 50px;
+    width: 57.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.days div:hover:not(.empty){
+    cursor: pointer;
+    border: 2px solid gray;
+}
+.today{
+    background-color: lightseagreen;
+}

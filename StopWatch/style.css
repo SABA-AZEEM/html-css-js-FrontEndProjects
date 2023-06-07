@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.756);
+}
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#start{
+    background-color: rgb(29, 170, 29);
+}
+#stop{
+    background-color: rgb(38, 152, 152);
+}
+#reset{
+    background-color: red;
+}

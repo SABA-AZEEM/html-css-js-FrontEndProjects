@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.logo{
+    display: block;
+    margin: 20px auto;
+}
+nav{
+    background-color: rgb(7, 60, 7);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+}
+.heading{
+    text-align: center;
+    margin: 80px;
+}
+.main-img{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+p{
+   padding: 20px;
+    font-size: 20px;
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}

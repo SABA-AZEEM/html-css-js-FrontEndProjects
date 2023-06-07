@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: purple;
+}
+.container{
+    background-color: aliceblue;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+.month{
+    background-color: orangered;
+    margin: 0;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text{
+    font-size: 20px;
+    color:darkgray;
+}
+.date{
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
+}
+#year{
+    margin: 20px 0;
+    font-weight: 500;
+}
